@@ -6,20 +6,74 @@ steroids.config.name = "Steroids Repro Template"
 # -- Initial Location --
 steroids.config.location = "http://localhost/index.html"
 
+# steroids.config.initialView =
+#   location: "http://localhost/initialView.html"
+#   id: "initView"
+
 # -- Tab Bar --
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+  {
+    title: "Index"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/index2.html"
+  }
+  {
+    title: "Index"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/index.html"
+  }
+  {
+    title: "Index"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/index.html"
+  }
+  {
+    title: "Index"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/index.html"
+  }
+  {
+    title: "Index"
+    icon: "icons/pill@2x.png"
+    location: "http://localhost/index3.html"
+  }
+]
+
+steroids.config.preloads = [
+  {
+    id: "Index1"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index2"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index3"
+    location: "http://localhost/index3.html"
+  }
+  {
+    id: "Index4"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index5"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index6"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index7"
+    location: "http://localhost/index.html"
+  }
+  {
+    id: "Index8"
+    location: "http://localhost/index.html"
+  }
+]
 
 # steroids.config.tabBar.tintColor = "#000000"
 # steroids.config.tabBar.tabTitleColor = "#00aeef"
